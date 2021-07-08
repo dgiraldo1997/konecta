@@ -25,3 +25,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+### Instalacion
+
+Tener instalado la version de php 5.6
+
+Crear en MySQL una base de datos llamada konectaprueba
+
+Crear archivo .env y configurar los datos de conexion Base de datos y servidor de correo
+
+Ejecutar en consola el comando "composer install", si no tienes composer installar 
+
+Ejecutar en consola el comando "php artisan migrate"
+
+configurar el apache "httpd_vhosts.conf" con el virtual host y su puerto corresponidente
+
+configurar el host en su archivo hosts de Windows driver win32
+
+levatar apache y mysql si usas xampp
+
+las credenciales estan en la migracion 
+
+Ejecutar el comando "php artisan key:generate" y luego "php artisan config:cache"
+
+Acceder a la url del host configurado y listo.
+
+
+
+
