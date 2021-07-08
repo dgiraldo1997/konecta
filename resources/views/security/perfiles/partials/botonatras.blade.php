@@ -1,0 +1,1 @@
+<a href="{{ url('/security/perfiles') }}" class='btn btn-primary'>Atrás</a>
